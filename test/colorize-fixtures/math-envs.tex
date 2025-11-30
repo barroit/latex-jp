@@ -1,20 +1,12 @@
-\documentclass{article}
-\usepackage{t1enc}
-\usepackage[utf8]{inputenc}
-
-\begin{document}
-
 \begin{align*}
   f(t,T) = f(0,T) + \int_0^t \sigma(s,T) \partial_T \sigma(s,T) ds -
   \int_0^t \partial_T \sigma(s,T) dW_s.
 \end{align*}
 
-
 $B(T, T+\delta) = \frac{1}{1 + \delta L(T, T+\delta)}$
 \begin{equation*}
   B(T, T+\delta) = \frac{1}{1 + \delta L(T, T+\delta)}
 \end{equation*}
-
 
 \begin{equation*}
   f(x) = \begin{cases}
@@ -121,4 +113,19 @@ Hello \\ World! \\[1ex] Have \(\{(a,b)\}\), \(y\).
   & = & l + m + n
 \end{IEEEeqnarray}
 
-\end{document}
+\begin{dcases}
+a & b \\ %<- this "&" highlight wrong
+\end{dcases}
+
+\begin{dcases*}
+a & b \\ %<- this "&" highlight wrong
+\end{dcases*}
+
+\begin{rcases}
+a & b \\ %<- this "&" highlight wrong
+\end{rcases}
+
+\begin{drcases*}
+a & b \\ %<- this "&" highlight wrong
+\end{drcases*}
+

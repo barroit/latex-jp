@@ -1,98 +1,6 @@
 [
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
-	},
-	{
-		"c": "documentclass",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex"
-	},
-	{
-		"c": "{",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex"
-	},
-	{
-		"c": "article",
-		"t": "text.tex.latex meta.preamble.latex support.class.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex"
-	},
-	{
-		"c": "\\",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
-	},
-	{
-		"c": "usepackage",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex"
-	},
-	{
-		"c": "{",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex"
-	},
-	{
-		"c": "t1enc",
-		"t": "text.tex.latex meta.preamble.latex support.class.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex"
-	},
-	{
-		"c": "\\",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex punctuation.definition.function.latex"
-	},
-	{
-		"c": "usepackage",
-		"t": "text.tex.latex meta.preamble.latex keyword.control.preamble.latex"
-	},
-	{
-		"c": "[",
-		"t": "text.tex.latex meta.preamble.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.begin.latex"
-	},
-	{
-		"c": "utf8",
-		"t": "text.tex.latex meta.preamble.latex meta.parameter.optional.latex variable.parameter.function.latex"
-	},
-	{
-		"c": "]",
-		"t": "text.tex.latex meta.preamble.latex meta.parameter.optional.latex punctuation.definition.arguments.optional.end.latex"
-	},
-	{
-		"c": "{",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.begin.latex"
-	},
-	{
-		"c": "inputenc",
-		"t": "text.tex.latex meta.preamble.latex support.class.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.latex meta.preamble.latex punctuation.definition.arguments.end.latex"
-	},
-	{
-		"c": "\\",
-		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex punctuation.definition.function.latex"
-	},
-	{
-		"c": "begin",
-		"t": "text.tex.latex meta.function.begin-document.latex support.function.be.latex"
-	},
-	{
-		"c": "{",
-		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.begin.latex"
-	},
-	{
-		"c": "document",
-		"t": "text.tex.latex meta.function.begin-document.latex variable.parameter.function.latex"
-	},
-	{
-		"c": "}",
-		"t": "text.tex.latex meta.function.begin-document.latex punctuation.definition.arguments.end.latex"
-	},
-	{
-		"c": "\\",
 		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
@@ -3217,22 +3125,274 @@
 	},
 	{
 		"c": "\\",
-		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex punctuation.definition.function.latex"
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
 	},
 	{
-		"c": "end",
-		"t": "text.tex.latex meta.function.end-document.latex support.function.be.latex"
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
 	},
 	{
 		"c": "{",
-		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.begin.latex"
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
 	},
 	{
-		"c": "document",
-		"t": "text.tex.latex meta.function.end-document.latex variable.parameter.function.latex"
+		"c": "dcases",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
 	},
 	{
 		"c": "}",
-		"t": "text.tex.latex meta.function.end-document.latex punctuation.definition.arguments.end.latex"
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "a ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": " b ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.newline.latex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "<- this \"&\" highlight wrong",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "dcases",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "dcases*",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "a ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": " b ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.newline.latex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "<- this \"&\" highlight wrong",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "dcases*",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "rcases",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "a ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": " b ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.newline.latex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "<- this \"&\" highlight wrong",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "rcases",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "begin",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "drcases*",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
+	},
+	{
+		"c": "a ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "&",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.align.latex"
+	},
+	{
+		"c": " b ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "\\\\",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex keyword.control.equation.newline.latex"
+	},
+	{
+		"c": " ",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex"
+	},
+	{
+		"c": "%",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex punctuation.definition.comment.tex"
+	},
+	{
+		"c": "<- this \"&\" highlight wrong",
+		"t": "text.tex.latex meta.function.environment.math.latex meta.math.block.latex support.class.math.block.environment.latex comment.line.percentage.tex"
+	},
+	{
+		"c": "\\",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex punctuation.definition.function.latex"
+	},
+	{
+		"c": "end",
+		"t": "text.tex.latex meta.function.environment.math.latex support.function.be.latex"
+	},
+	{
+		"c": "{",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.begin.latex"
+	},
+	{
+		"c": "drcases*",
+		"t": "text.tex.latex meta.function.environment.math.latex variable.parameter.function.latex"
+	},
+	{
+		"c": "}",
+		"t": "text.tex.latex meta.function.environment.math.latex punctuation.definition.arguments.end.latex"
 	}
 ]
