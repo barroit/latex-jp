@@ -1,6 +1,6 @@
 {
-  "name": "vscode-latex-basics",
-  "displayName": "LaTeX grammars",
+  "name": "latex-jp",
+  "displayName": "LaTeX grammars JP",
   "description": "LaTeX textmate grammars for Visual Studio Code",
   "version": "1.16.0",
   "publisher": "jlelong",
