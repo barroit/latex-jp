@@ -13,18 +13,6 @@
   "author": {
     "name": "Jérôme Lelong"
   },
-  "categories": [
-    "Programming Languages"
-  ],
-  "keywords": [
-    "latex",
-    "tex",
-    "bibtex",
-    "rsweave",
-    "syntax",
-    "textmate",
-    "highlighting"
-  ],
   "engines": {
     "vscode": "^1.67.0"
   },
@@ -232,25 +220,5 @@
         }
       }
     ]
-  },
-  "scripts": {
-    "lint": "eslint --cache --ext .js .",
-    "lint:fix": "eslint --fix --cache --ext .js .",
-    "build": "node ./build/all.mjs",
-    "update-external": "node ./build/all.mjs update-external",
-    "build-latex": "node ./build/all.mjs build-latex",
-    "test": "npm run build-latex && node ./test/runTest.js"
-  },
-  "devDependencies": {
-    "@types/js-yaml": "^4.0.9",
-    "@types/mocha": "10.0.10",
-    "@types/vscode": "1.104.0",
-    "@vscode/test-electron": "^2.5.2",
-    "eslint": "9.35.0",
-    "got": "14.4.8",
-    "js-yaml": "^4.1.0",
-    "mocha": "11.7.2",
-    "textmate-bailout": "1.1.0",
-    "vscode-extend-language": "^0.3.0"
   }
 }
