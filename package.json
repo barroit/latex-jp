@@ -19,116 +19,88 @@
   "contributes": {
     "languages": [
       {
-        "id": "tex",
-        "aliases": [
-          "TeX",
-          "tex"
-        ],
+        "id": "tex-jp",
         "extensions": [
-          ".sty",
-          ".cls",
-          ".bbx",
-          ".cbx"
+          ".jp.sty",
+          ".jp.cls",
+          ".jp.bbx",
+          ".jp.cbx"
         ],
         "configuration": "./languages/latex-language-configuration.json"
       },
       {
-        "id": "doctex",
-        "aliases": [
-          "DocTeX",
-          "doctex"
-        ],
+        "id": "doctex-jp",
         "extensions": [
-          ".dtx"
+          ".jp.dtx"
         ],
         "configuration": "./languages/doctex-language-configuration.json"
       },
       {
-        "id": "latex",
-        "aliases": [
-          "LaTeX",
-          "latex"
-        ],
+        "id": "latex-jp",
         "extensions": [
-          ".tex",
-          ".ltx",
-          ".ctx"
+          ".jp.tex",
+          ".jp.ltx",
+          ".jp.ctx"
         ],
         "configuration": "./languages/latex-language-configuration.json"
       },
       {
-        "id": "bibtex",
-        "aliases": [
-          "BibTeX",
-          "bibtex"
-        ],
+        "id": "bibtex-jp",
         "extensions": [
-          ".bib"
+          ".jp.bib"
         ],
         "configuration": "./languages/bibtex-language-configuration.json"
       },
       {
-        "id": "bibtex-style",
-        "aliases": [
-          "BibTeX style"
-        ],
+        "id": "bibtex-style-jp",
         "extensions": [
-          ".bst"
+          ".jp.bst"
         ],
         "configuration": "./languages/bibtex-style-language-configuration.json"
       },
       {
-        "id": "pweave",
-        "aliases": [
-          "Pweave"
-        ],
+        "id": "pweave-jp",
         "extensions": [
-          ".pnw",
-          ".ptexw"
+          ".jp.pnw",
+          ".jp.ptexw"
         ],
         "configuration": "./languages/latex-language-configuration.json"
       },
       {
-        "id": "jlweave",
-        "aliases": [
-          "Weave.jl"
-        ],
+        "id": "jlweave-jp",
         "extensions": [
-          ".jnw",
-          ".jtexw"
+          ".jp.jnw",
+          ".jp.jtexw"
         ],
         "configuration": "./languages/latex-language-configuration.json"
       },
       {
-        "id": "rsweave",
-        "aliases": [
-          "R Sweave"
-        ],
+        "id": "rsweave-jp",
         "extensions": [
-          ".rnw",
-          ".Rnw",
-          ".Rtex",
-          ".rtex",
-          ".snw",
-          ".Snw"
+          ".jp.rnw",
+          ".jp.Rnw",
+          ".jp.Rtex",
+          ".jp.rtex",
+          ".jp.snw",
+          ".jp.Snw"
         ],
         "configuration": "./languages/latex-language-configuration.json"
       },
       {
-        "id": "cpp_embedded_latex",
+        "id": "cpp_embedded_latex-jp",
         "configuration": "./languages/latex-cpp-embedded-language-configuration.json",
         "aliases": []
       },
       {
-        "id": "markdown_latex_combined",
+        "id": "markdown_latex_combined-jp",
         "configuration": "./languages/markdown-latex-combined-language-configuration.json",
         "aliases": []
       }
     ],
     "grammars": [
       {
-        "language": "tex",
-        "scopeName": "text.tex",
+        "language": "tex-jp",
+        "scopeName": "text.jp.tex",
         "path": "./syntaxes/TeX.tmLanguage.json",
         "unbalancedBracketScopes": [
           "keyword.control.ifnextchar.tex",
@@ -136,8 +108,8 @@
         ]
       },
       {
-        "language": "doctex",
-        "scopeName": "text.tex.doctex",
+        "language": "doctex-jp",
+        "scopeName": "text.jp.tex.doctex",
         "path": "./syntaxes/DocTeX.tmLanguage.json",
         "unbalancedBracketScopes": [
           "keyword.control.ifnextchar.tex",
@@ -145,8 +117,8 @@
         ]
       },
       {
-        "language": "latex",
-        "scopeName": "text.tex.latex",
+        "language": "latex-jp",
+        "scopeName": "text.jp.tex.latex",
         "path": "./syntaxes/LaTeX.tmLanguage.json",
         "unbalancedBracketScopes": [
           "keyword.control.ifnextchar.tex",
@@ -173,22 +145,22 @@
         }
       },
       {
-        "language": "bibtex",
-        "scopeName": "text.bibtex",
+        "language": "bibtex-jp",
+        "scopeName": "text.jp.bibtex",
         "path": "./syntaxes/Bibtex.tmLanguage.json"
       },
       {
-        "language": "bibtex-style",
+        "language": "bibtex-style-jp",
         "scopeName": "source.bst",
         "path": "./syntaxes/BibTeX-style.tmLanguage.json"
       },
       {
-        "language": "markdown_latex_combined",
-        "scopeName": "text.tex.markdown_latex_combined",
+        "language": "markdown_latex_combined-jp",
+        "scopeName": "text.jp.tex.markdown_latex_combined",
         "path": "./syntaxes/markdown-latex-combined.tmLanguage.json"
       },
       {
-        "language": "cpp_embedded_latex",
+        "language": "cpp_embedded_latex-jp",
         "scopeName": "source.cpp.embedded.latex",
         "path": "./syntaxes/cpp-grammar-bailout.tmLanguage.json",
         "embeddedLanguages": {
@@ -196,8 +168,8 @@
         }
       },
       {
-        "language": "pweave",
-        "scopeName": "text.tex.latex.pweave",
+        "language": "pweave-jp",
+        "scopeName": "text.jp.tex.latex.pweave",
         "path": "./syntax/Pweave.tmLanguage.json",
         "embeddedLanguages": {
           "source.python": "python"

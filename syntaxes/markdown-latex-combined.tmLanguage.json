@@ -6,7 +6,7 @@
 	],
 	"version": "https://github.com/microsoft/vscode-markdown-tm-grammar/commit/0812fc4b190efc17bfed0d5b4ff918eff8e4e377",
 	"name": "Markdown",
-	"scopeName": "text.tex.markdown_latex_combined",
+	"scopeName": "text.jp.tex.markdown_latex_combined",
 	"patterns": [
 		{
 			"include": "text.tex.latex"
